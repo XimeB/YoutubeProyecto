@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "UTF-8">
+	<title>Documents</title>
+</head>
+<body>
+	<h1>Hola desde templates</h1>
+	{% for elemento in data %}
+		<p>{{elemento}}</p>
+	{% endfor %}
+
+	<!--<p>{{data["name"]}}</p> (para llamar a el diccionario de la variable data de python) 
+	{% if data["name] == "xime" %} (para funcion de pyhton es solo una llave y % 
+		<p> {{data ["aka"]}} </p>
+	{% else %}
+		<p> hola nuevo humano </p>
+	{% endif %} -->
+</body>
+</html>
